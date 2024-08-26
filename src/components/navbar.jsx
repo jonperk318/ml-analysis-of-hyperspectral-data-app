@@ -72,7 +72,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-30 text-xl">
+        <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-30 text-xl bg-space-cadet/[0.3]">
             {/* LOGO */}
             <div className="z-40 justify-center">
                 <Link href="https://www.jayandsparrow.com/">
