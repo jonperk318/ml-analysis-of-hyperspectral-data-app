@@ -10,7 +10,7 @@ const TransitionProvider = ({children}) => {
 
     return (
         <AnimatePresence mode="wait">
-            <div key={pathName} className="w-screen min-h-screen text-silver animated-background bg-black bg-gradient-to-r from-black from-30% via-purple/[0.3] to-black">
+            <div key={pathName} className="w-screen min-h-screen overflow-hidden text-silver animated-background bg-black bg-gradient-to-r from-black from-30% via-purple/[0.3] to-black">
                 <motion.div className="h-screen w-screen fixed bg-black rounded-b-[150px] z-40" 
                     animate={{height: "0vh"}}
                     exit={{height: "140vh"}}
@@ -28,7 +28,7 @@ const TransitionProvider = ({children}) => {
                     initial={{height: "140vh"}}
                     animate={{height: "0vh", transition: {delay: 0.3}}}
                     key="finish" />
-                <div className="h-24 fixed z-10">
+                <div className="h-24 fixed z-10 w-screen">
                     <Navbar/>
                 </div>
                 <div className="h-[calc(100vh - 6rem)] relative top-24">{children}</div>
