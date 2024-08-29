@@ -25,7 +25,7 @@ const config: Config = {
       "salmon": "#fe433c",
       "watermelon": "#f31d64",
       "lilac": "#a224ad",
-      "fusha": "#db1df3",
+      "fuchsia": "#db1df3",
       "purple": "#6a38b3",
       "lavender": "#bdadff",
       "blue": "#3c5081",

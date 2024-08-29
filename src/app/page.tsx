@@ -1,6 +1,7 @@
 "use client"
-import {motion} from "framer-motion"
-import Image from "next/image"
+import {motion} from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import bnmf2_6g2 from "../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Blind NMF plotting 2-6 components (Grain 2).png";
 
@@ -24,6 +25,7 @@ export default function Home() {
                 <h1 className="text-4xl font-bold md:text-6xl">Machine Learning Analysis of Hyperspectral Data</h1>
                 <p className="md:text-xl">
                   by Jonathan Perkins</p>
+                  <Link href={"https://github.com/jonperk318/machine-learning-analysis-of-hyperspectral-data"} className="p-4 text-sm md:text-md lg:text-lg font-semibold ring-fuchsia ring-2 rounded-xl w-fit hover:bg-fuchsia hover:text-black">View project on GitHub</Link>
               </div>
               {/* IMAGE */}
               <div className="relative h-1/2 w-1/2 m-10 pt-8">

@@ -33,7 +33,7 @@ const TransitionProvider = ({children}) => {
                 </div>
                 <div className="h-[calc(100vh - 6rem)] relative top-24">{children}</div>
             </div>
-            {/*<div className="w-screen h-screen animated-background bg-black bg-gradient-to-r from-black from-30% via-fusha/[0.3] to-black text-silver">*/}
+            {/*<div className="w-screen h-screen animated-background bg-black bg-gradient-to-r from-black from-30% via-fuchsia/[0.3] to-black text-silver">*/}
             {/*<div className="w-screen animated-background h-screen bg-black bg-gradient-to-r from-black from-80% via-purple/[0.3] to-black opacity-50"></div>*/}
         </AnimatePresence>
     )
