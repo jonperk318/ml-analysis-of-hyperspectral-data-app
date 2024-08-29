@@ -26,7 +26,7 @@ const sections = [
         title: "Data",
         imgs: [img1, img2],
         descs: ["This research mainly utilizes two hyperspectral datasets of HP acquired via CL. On the left of these two figures are SEM images, the center of the figures show the CL images, and the right show four spectra taken from each CL image, the four spectra are plotted in the center image, and the wavelength used in the center image is shown using a black vertical line on the right figure.", 
-        "Grain 1 is a wide-field view of a hybrid perovskite cell, and grain 2 is a high-fidelity image of a cell boundary."]
+        "Grain 1 is a wide-field view of a hybrid perovskite cell, and grain 2 is a high-fidelity image of a cell boundary. \n\nThe three peak emissions shown in the spectral plots correspond to HP (around 760 nm), Lead Iodide (around 520nm), and the substrate material (around 380nm)"]
     },
     {
         title: "Cosmic Rays",

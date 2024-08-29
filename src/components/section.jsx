@@ -5,7 +5,7 @@ import { useHash } from "react-hash-control";
 
 const Section = ({sections}) => {
 
-    const sectionName = useHash().replace("%20", " ");
+    const sectionName = useHash().replaceAll("%20", " ");
 
     function getSectionComponents(section) {
 
@@ -17,7 +17,7 @@ const Section = ({sections}) => {
             segments.push(
             <React.Fragment key={i}>
                 {section.descs[i] && (
-                    <p className="w-[250px] sm:w-[300px] md:w-[450px] lg:w-[550px] xl:w-[800px] text-xs sm:text-sm md:text-md lg:text-lg my-4 md:my-6 lg:my-8 xl:my-16" key={i + maxLength}>{section.descs[i]}</p>
+                    <p className="w-[250px] sm:w-[300px] md:w-[450px] lg:w-[550px] xl:w-[800px] text-xs sm:text-sm md:text-md lg:text-lg my-4 md:my-6 lg:my-8 xl:my-16 whitespace-pre-wrap" key={i + maxLength}>{section.descs[i]}</p>
                 )}
                 {section.imgs[i] && (
                     <div className="relative item-detail" key={i}>
