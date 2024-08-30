@@ -11,8 +11,8 @@ import img4 from "../../../machine-learning-analysis-of-hyperspectral-data/png-f
 import img5 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/preprocessing/cosmic-rays/6) Grain 2 Cosmic Ray Points (before removal 2).gif";
 import img6 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/preprocessing/cosmic-rays/8) Grain 2 Cosmic Ray Points (after removal 2).gif";
 import percentage_changed from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/preprocessing/cosmic-rays/Percentage of total data changed after removal.svg";
-import img7 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/preprocessing/Denoising Grain 1 with Various Techniques.svg";
-import img8 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/preprocessing/Denoising Grain 2 with Various Techniques.svg";
+import img7 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/preprocessing/Denoising Grain 1 with Various Techniques.png";
+import img8 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/preprocessing/Denoising Grain 2 with Various Techniques.png";
 import img9 from "../../../public/denoising.svg"
 
 const sections = [

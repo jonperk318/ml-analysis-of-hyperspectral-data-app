@@ -5,26 +5,26 @@ import Section from "../../components/section.jsx";
 
 import nmf from "../../../public/nmf.png";
 import frobenius from "../../../public/frobenius-norm.svg";
-import img1 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Blind NMF plotting 2-6 components (Grain 1).svg";
-import img2 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Blind NMF plotting 2-6 components (Grain 2).svg";
-import img3 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Explained Variance for Blind NMF.svg";
-import img4 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Iteration Investigation with Grain 1.svg";
-import img5 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Iteration Investigation with Grain 2.svg";
-import img6 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Explained Variance for Blind NMF Iteration Investigation.svg";
-import img7 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Blind NMF with Nimfa Grain 1.svg";
-import img8 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Blind NMF with Nimfa Grain 2.svg";
-import img9 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Iteration Investigation with Nimfa Grain 1.svg";
-import img10 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Iteration Investigation with Nimfa Grain 2.svg";
-import img11 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Sparse Image-Component NMF Grain 1.svg";
-import img12 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Sparse Image-Component NMF Grain 2.svg";
-import img13 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Sparse Spectral-Component NMF Grain 1.svg";
-import img14 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Sparse Spectral-Component NMF Grain 2.svg";
-import img15 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Explained Variance for NMF Sparseness Investigation.svg";
-import img16 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Low Sparseness Iteration Investigation Grain 1.svg";
-import img17 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/High Sparseness Iteration Investigation Grain 1.svg";
-import img18 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Low Sparseness Iteration Investigation Grain 2.svg";
-import img19 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/High Sparseness Iteration Investigation Grain 2.svg";
-import img20 from "../../../machine-learning-analysis-of-hyperspectral-data/svg-figures/nmf/Explained Variance for NMF Sparseness and Iteration Investigation.svg";
+import img1 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Blind NMF plotting 2-6 components (Grain 1).png";
+import img2 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Blind NMF plotting 2-6 components (Grain 2).png";
+import img3 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Explained Variance for Blind NMF.png";
+import img4 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Iteration Investigation with Grain 1.png";
+import img5 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Iteration Investigation with Grain 2.png";
+import img6 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Explained Variance for Blind NMF Iteration Investigation.png";
+import img7 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Blind NMF with Nimfa Grain 1.png";
+import img8 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Blind NMF with Nimfa Grain 2.png";
+import img9 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Iteration Investigation with Nimfa Grain 1.png";
+import img10 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Iteration Investigation with Nimfa Grain 2.png";
+import img11 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Sparse Image-Component NMF Grain 1.png";
+import img12 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Sparse Image-Component NMF Grain 2.png";
+import img13 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Sparse Spectral-Component NMF Grain 1.png";
+import img14 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Sparse Spectral-Component NMF Grain 2.png";
+import img15 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Explained Variance for NMF Sparseness Investigation.png";
+import img16 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Low Sparseness Iteration Investigation Grain 1.png";
+import img17 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/High Sparseness Iteration Investigation Grain 1.png";
+import img18 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Low Sparseness Iteration Investigation Grain 2.png";
+import img19 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/High Sparseness Iteration Investigation Grain 2.png";
+import img20 from "../../../machine-learning-analysis-of-hyperspectral-data/png-figures/nmf/Explained Variance for NMF Sparseness and Iteration Investigation.png";
 
 
 const sections = [
@@ -79,7 +79,7 @@ const sections = [
         descs: ["The final step is to test for the optimal iteration count for low and high degrees of sparseness in the spectral matrices.",
         "First, iteration counts are testes for low and high degrees of sparseness in grain 1.",
         "Second, iteration counts are testes for low and high degrees of sparseness in grain 2.",
-        "\n",
+        " ",
         "Finally, the EVR is calculated for each model.",
         "Higher iteration counts at best have little effect on the accuracy of sparse decomposition matrices, and at worse it has a negative effect."]
     }

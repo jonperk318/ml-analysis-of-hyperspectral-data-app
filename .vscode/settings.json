@@ -1,10 +1,12 @@
 {
     "cSpell.words": [
+        "colormapped",
         "denoising",
         "descs",
         "Frobenius",
         "imgs",
         "Methylammonium",
-        "neuromorphic"
+        "neuromorphic",
+        "overfitting"
     ]
 }
