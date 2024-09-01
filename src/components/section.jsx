@@ -17,11 +17,11 @@ const Section = ({sections}) => {
             segments.push(
             <React.Fragment key={i}>
                 {section.descs[i] && (
-                    <p className="w-[250px] sm:w-[350px] md:w-[450px] lg:w-[590px] xl:w-[800px] text-xs sm:text-sm md:text-md lg:text-lg my-4 md:my-6 lg:my-8 xl:my-16 whitespace-pre-wrap" key={i + maxLength}>{section.descs[i]}</p>
+                    <p className="w-[220px] xs:w-[300px] sm:w-[350px] md:w-[450px] lg:w-[590px] xl:w-[800px] text-xs sm:text-sm md:text-md lg:text-lg my-4 md:my-6 lg:my-8 xl:my-16 whitespace-pre-wrap" key={i + maxLength}>{section.descs[i]}</p>
                 )}
                 {section.imgs[i] && (
                     <div className="relative item-detail" key={i}>
-                        <Image src={section.imgs[i]} alt={section.title} className="rounded-md w-[250px] sm:w-[350px] md:w-[450px] lg:w-[590px] xl:w-[800px]" priority style={{objectFit: "contain", layout: "fill"}} />
+                        <Image src={section.imgs[i]} alt={section.title} className="rounded-md w-[220px] xs:w-[300px] sm:w-[350px] md:w-[450px] lg:w-[590px] xl:w-[800px]" priority style={{objectFit: "contain", layout: "fill"}} />
                     </div>
                 )}
             </React.Fragment>
