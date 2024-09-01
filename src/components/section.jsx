@@ -17,11 +17,11 @@ const Section = ({sections}) => {
             segments.push(
             <React.Fragment key={i}>
                 {section.descs[i] && (
-                    <p className="w-[250px] sm:w-[300px] md:w-[450px] lg:w-[550px] xl:w-[800px] text-xs sm:text-sm md:text-md lg:text-lg my-4 md:my-6 lg:my-8 xl:my-16 whitespace-pre-wrap" key={i + maxLength}>{section.descs[i]}</p>
+                    <p className="w-[250px] sm:w-[350px] md:w-[450px] lg:w-[590px] xl:w-[800px] text-xs sm:text-sm md:text-md lg:text-lg my-4 md:my-6 lg:my-8 xl:my-16 whitespace-pre-wrap" key={i + maxLength}>{section.descs[i]}</p>
                 )}
                 {section.imgs[i] && (
                     <div className="relative item-detail" key={i}>
-                        <Image src={section.imgs[i]} alt={section.title} className="rounded-md w-[250px] sm:w-[300px] md:w-[450px] lg:w-[550px] xl:w-[800px]" priority style={{objectFit: "contain", layout: "fill"}} />
+                        <Image src={section.imgs[i]} alt={section.title} className="rounded-md w-[250px] sm:w-[350px] md:w-[450px] lg:w-[590px] xl:w-[800px]" priority style={{objectFit: "contain", layout: "fill"}} />
                     </div>
                 )}
             </React.Fragment>
@@ -32,7 +32,7 @@ const Section = ({sections}) => {
     }
 
     return (
-            <div className="relative h-full pb-32 left-[120px] md:left-[180px] lg:left-[220px] xl:left-[250px] w-[calc(100vw-120px)] md:w-[calc(100vw-180px)] lg:w-[calc(100vw-220px)] xl:w-[calc(100vw-250px)]">
+            <div className="relative h-full pb-32 left-[100px] sm:left-[160px] md:left-[180px] lg:left-[220px] xl:left-[250px] w-[calc(100vw-100px)] sm:w-[calc(100vw-160px)] md:w-[calc(100vw-180px)] lg:w-[calc(100vw-220px)] xl:w-[calc(100vw-250px)]">
                 {sections.map((section) => (
                     <div className="flex flex-col items-center m-4 md:m-6 lg:m-8 p-4 md:p-6 lg:p-8 bg-space-cadet/[0.4] rounded-xl" key={section.title}>
                         <a className="block relative bottom-32" name={section.title} id={section.title} hidden></a>

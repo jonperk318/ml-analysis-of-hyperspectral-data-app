@@ -17,7 +17,7 @@ export default function Home() {
           animate={{y: "0%"}} 
           transition={{duration: 1}}
           >
-        <div key={pathName} className="w-screen min-h-screen text-silver animated-background bg-black bg-gradient-to-r from-black from-30% via-purple/[0.3] to-black">
+        <div key={pathName} className="w-screen h-[120vh] md:h-[130vh] lg:h-full text-silver animated-background bg-black bg-gradient-to-r from-black from-30% via-purple/[0.3] to-black">
           <div>
             <div className=" h-full flex flex-col lg:flex-row px-2 md:px-10 lg:px-12 xl:px-14 text-xl items-center justify-center content-center pt-10">
               {/* TEXT */}
