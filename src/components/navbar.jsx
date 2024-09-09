@@ -86,33 +86,38 @@ const Navbar = () => {
                 ))}
             </div>
             {/* ICONS */}
-            <div className="hidden md:flex gap-4">
+            <div className="flex gap-4">
                 <IconContext.Provider value={{className: "hover:scale-125 hover:fill-watermelon", size:24}}>
-                    <a href="https://github.com/jonperk318">
+                    <a href="https://github.com/jonperk318" target="_blank" rel="noopener noreferrer">
                         <FaGithub />
                     </a>
                 </IconContext.Provider>
                 <IconContext.Provider value={{className: "hover:scale-125 hover:fill-yellow", size:24}}>
-                    <a href="https://www.instagram.com/jonperk318/">
+                    <a href="https://www.instagram.com/jonperk318/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
                 </IconContext.Provider>
                 <IconContext.Provider value={{className: "hover:scale-125 hover:fill-light-blue", size:24}}>
-                    <a href="https://www.linkedin.com/in/jonathan-perkins-0b1411285/">
+                    <a href="https://www.linkedin.com/in/jonathan-perkins-0b1411285/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin />
                     </a>
                 </IconContext.Provider>
                 <IconContext.Provider value={{className: "hover:scale-125 hover:fill-blue", size:24}}>
-                    <a href="https://www.facebook.com/jonathan.davidperkins">
+                    <a href="https://www.facebook.com/jonathan.davidperkins" target="_blank" rel="noopener noreferrer">
                         <FaFacebook />
                     </a>
                 </IconContext.Provider>
                 <IconContext.Provider value={{className: "hover:scale-125 hover:fill-purple", size:24}}>
-                    <a href="mailto:jonperk318@gmail.com">
+                    <a href="mailto:jonperk318@gmail.com" target="_blank" rel="noopener noreferrer">
                         <IoMdMail />
                     </a>
                 </IconContext.Provider>
-            </div>
+                <IconContext.Provider value={{className: "hover:scale-125 hover:fill-fuchsia", size:24}}>
+                    <a href="https://jonperk318.github.io/resume/" target="_blank" rel="noopener noreferrer">
+                        <MdContactPage />
+                    </a>
+                </IconContext.Provider>
+            </div>           
             {/* MENU */}
             <div className="md:hidden">
                 {/* HAMBURGER */}
