@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { IconContext } from "react-icons";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { MdContactPage } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 import Navlink from "./navlink";
 import {motion} from "framer-motion";
