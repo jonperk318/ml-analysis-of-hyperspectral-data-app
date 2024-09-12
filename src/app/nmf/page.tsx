@@ -82,6 +82,11 @@ const sections = [
         " ",
         "Finally, the EVR is calculated for each model.",
         "Higher iteration counts at best have little effect on the accuracy of sparse decomposition matrices, and at worse it has a negative effect."]
+    },
+    {
+        title: "Citations",
+        imgs: [],
+        descs: ["Taylor, E. J., Iyer, V., Dhami, B. S., Klein, C., Lawrie, B. J., & Appavoo, K. (2023). Hyperspectral mapping of nanoscale photophysics and degradation processes in hybrid perovskite at the single grain level. Nanoscale Advances, 5(18), 4687–4695. https://doi.org/10.1039/D3NA00529A\n\nLee, D. D., & Seung, H. S. (1999). Learning the parts of objects by non-negative matrix factorization. Nature, 401(6755), 788–791. https://doi.org/10.1038/44565"]
     }
 ]
 
